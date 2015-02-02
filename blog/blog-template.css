@@ -32,7 +32,8 @@ section{
   font-size: 20px}
   
 
-  .title{
+  #title{
     padding-left: 700px;
     font-size: 50px;
+    font-family: cursive;
   }
