@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Art's Blog</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="blog-template.css">
+ 
+</head>
+<body>
+  <div id="title">Arturo's Blog</div>
+  <table>
+
+
+<tr>
+  <td>
+       <div id="wrapper">
+
+  <header>
+<main>
+  <h1>Enumerable Method</h1>
+  <h2>Cycle Method</h2>
+  <h4>2/8/15</h4>
+   </header>
+<nav>
+  
+</nav>
+  <section>
+    <p>
+     So in this blog I want to go over, and explain an enumerable method called the cycle method. But first I'd like to explain what an enumerable method is. The Enumerable module provides a set of methods to traverse, search, sort and manipulate collections.If you understand loops and arrays and hashes, there's nothing really new here. We can use the enumerables to iterate over, or go through each and every element of, a given collection class (i.e. an array or a hash) and tell it to run a block of code while they are at it. Enumerables can also sort them by size, alphabetically, lexicographically, randomly, etc. There are just so many different types of useful enumerables out there. 
+   </p>
+   <p>
+  So more specifically what does the cycle method do? It repeates over and over an operation or a block of code, much like so:<br>
+  <p style="color:blue">
+               <br> a = ["a", "b", "c"]
+               <br> a.cycle { |x| puts x }  # print, a, b, c, a, b, c,.. forever.
+               <br> a.cycle(2) { |x| puts x }  # print, a, b, c, a, b, c.
+  <br>So in this code you see the variable 'a' is set to the array of ["a","b","c"] </p>
+  
+  
+  <br>As you call the cycle method on our variable it continuously prints out our array as a loop if none or nil is given. If a non-positive number is given or the collection is empty, it does nothing. Returns nil if the loop has finished without getting interrupted.
+    </p>
+  <p>
+    However, there is a way to stop it from repeating or returning nothing. If you give it a set integer as an arguement like in the example where the arguement is '(2)' it will repeat your array the amount of times as you give in the arguement so in our case it's two times.
+  </p>
+</div>
+  </td>
+  <td></td>
+<td>
+
+  <div class="Header"><img src="http://3.bp.blogspot.com/-CvBGBqbRJcY/Uv8G6pA2toI/AAAAAAAACmE/EmQ8iPXz0ZY/s1600/elegant+subscribe+box.JPG"> </div>
+</td>
+<td>
+<h3>Other Blog entries</h3>
+<ul>
+<li><a href="#">Chef's Kitchen</a></li>
+<li><a href="#">Css Design</a></li>
+
+</ul>  
+
+</td>
+  
+
+
+
+
+
+</table>
+</html>
+
