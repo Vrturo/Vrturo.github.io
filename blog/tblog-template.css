@@ -1,0 +1,23 @@
+html{
+	background-color:#C0C0C0;
+	height: 100%
+}
+header{
+	background-color: black;
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+body{
+	background-color: white;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+h1{
+	text-align: center;
+}
+div.box{
+	margin-left: 20%;
+	margin-right: 20%;
+}
