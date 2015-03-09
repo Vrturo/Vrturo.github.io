@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+html{
+	background-color:black;
+	height: 100%
+}
+header{
+	background-color: grey;
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+body{
+	background-color: white;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+h2{
+	text-align: center;
+}
+div.box{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+th{
+	text-align: center;
+}
+tr.border_bottom td{
+  border-bottom:1pt solid black;
+  padding-bottom: 20px;
+}
+</style>
+
+<head>
+<header>Ruby Cheat Sheet<br><br></header>
+</head>
+
+<body>
+	<div class="box">
+	<h2>Hashes, Arrays, Strings, Integers</h2>
+	<p> 
+		Here's a handy cheat sheet to use as a reference to understanding basic Ruby Hashes, Arrays, Strings, Integers!
+	</p>
+	<hr>
+		<table cellspacing="10" align="center">
+			<tr>
+				<th><h3>Hashes</h3></th>
+			</tr>
+			<tr class="border_bottom"><td style ="width:300px"> animals ={ <br><br>
+				'dog' => 'canine',<br><br> 'cat' => 'feline', <br><br>'donkey' => 'asinine'}<br><br>
+				end<br><br>
+				puts animals['dog']  #=> 'canine'
+
+
+				</td>
+				<td> A Hash is a dictionary-like collection of unique keys and their values. Also called associative arrays, they are similar to Arrays, but where an Array uses integers as its index, a Hash allows you to use any object type. When you store a value in a hash, you actually supply two objects, the key and the value. You can retrieve the value by using the key. The values in a hash can be objects of any type. The example to the left uses hash literals: a list of key => value pairs between braces.
+				</td>
+
+			<tr>
+
+				<th><h3>Arrays</h3></th>
+			</tr>
+			<tr class="border_bottom"><td>Array = ['lion', 0, nil, 'chicken']<br><br>
+				array[0] #=> 'lion'</td>
+			<td>Arrays are ordered, integer-indexed collections of any object. Arrays have an order system called an index. the first item of every array starts at 0, then 1, then 2, and so on. A negative index is assumed to be relative to the end of the array. Index of -1 indicates the last element of the array, -2 is the next to last element in the array, and so on.</td>
+			</tr>
+			<tr>
+
+				<th><h3>Strings</h3></th>
+			</tr>
+			<tr class="border_bottom"><td>"hello"<br><br>
+					"Blue"<br><br>
+					'CAPS'<br><br>
+					'football'<br>
+					</td>
+			<td>Strings are the most common object used in Ruby. Strings are an alphanumeric characters that you can identify by the use of single or double quotation marks that wrap around the text.</td>
+			</tr>
+
+			<th><h3>Integers</h3></th>
+			</tr>
+			<tr class="border_bottom"><td>10 + 5 = 15<br><br>
+					1.5 - 5.5 = -4<br><br>
+					2** = 4<br><br>
+					3.3 * 4 = 13.2<br><br>
+					10 / 2 = 5</td>
+			<td>In Ruby there are two classes for numbers, Fixnum are negative and positive whole numbers and Float are decimal numbers. These are the most common types of numbers in Ruby and you can also do mathematical calculations with both.</td>
+			</tr>	 
+				 				 
+
+</table>
+</div>
+</body>
+</html>
+</html>
