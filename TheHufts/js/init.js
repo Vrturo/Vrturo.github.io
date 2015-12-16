@@ -11,17 +11,17 @@ $(document).on("ready",function(){
         <meta name="author" content="">
 
         <!-- CSS Global Compulsory -->
-        <link rel="stylesheet" href="http://Vrturo.github.io/css/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://Vrturo.github.io/css/stylesheets/subscription.css" >
+        <link rel="stylesheet" href="http://Vrturo.github.io/TheHufts/css/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://Vrturo.github.io/TheHufts/css/stylesheets/subscription.css" >
 
         <!-- CSS Implementing Plugins -->
-        <link href="http://Vrturo.github.io/css/css/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="http://Vrturo.github.io/css/plugins/css/ionicons.min.css">
-        <link rel="stylesheet" href="http://Vrturo.github.io/css/css/animate.min.css">
-        <link rel="stylesheet" href="http://Vrturo.github.io/css/css/flexslider.css">
-        <link rel="stylesheet" href="http://Vrturo.github.io/css/plugins/css/vegas.min.css">
-        <link rel="stylesheet" href="http://Vrturo.github.io/css/plugins/css/nivo-lightbox.css">
-        <link rel="stylesheet" href="http://Vrturo.github.io/css/plugins/nivo-lightbox/themes/default/default.css" type="text/css">
+        <link href="http://Vrturo.github.io/TheHufts/css/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="http://Vrturo.github.io/TheHufts/css/plugins/css/ionicons.min.css">
+        <link rel="stylesheet" href="http://Vrturo.github.io/TheHufts/css/css/animate.min.css">
+        <link rel="stylesheet" href="http://Vrturo.github.io/TheHufts/css/css/flexslider.css">
+        <link rel="stylesheet" href="http://Vrturo.github.io/TheHufts/css/plugins/css/vegas.min.css">
+        <link rel="stylesheet" href="http://Vrturo.github.io/TheHufts/css/plugins/css/nivo-lightbox.css">
+        <link rel="stylesheet" href="http://Vrturo.github.io/TheHufts/css/plugins/nivo-lightbox/themes/default/default.css" type="text/css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
